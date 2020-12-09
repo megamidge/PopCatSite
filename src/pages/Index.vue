@@ -1,7 +1,7 @@
 <template>
-  <q-page class="flex flex-center" @mousedown="doPopDown" @mouseup="doPopUp">
-    <q-img v-show="pop" class="popcat" src="/image/popcatpop.png" :ratio="300/338"/>
-    <q-img v-show="!pop" class="popcat" src="/image/popcatnot.png" :ratio="300/338"/>
+  <q-page style="overflow:none;max-height:100vh;" class="flex flex-center" @touchstart.stop="doPopDown" @touchstop.stop="doPopUp" @mousedown.stop="doPopDown" @mouseup="doPopUp" >
+    <img v-show="pop" class="popcat" src="/image/popcatpop.png"/>
+    <img v-show="!pop" class="popcat" src="/image/popcatnot.png"/>
   </q-page>
 </template>
 
@@ -42,9 +42,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 .popcat {
-  max-width:100vw;
-  max-height:100vh;
   height: 100vh;
   width:100vh;
+  object-fit: contain ;
 }
+
 </style>
