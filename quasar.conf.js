@@ -115,9 +115,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'PopCat',
-        short_name: 'PopCat',
-        description: 'A popping cat',
+        name: 'Popcat',
+        short_name: 'Popcat',
+        description: 'Popcat catpop',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

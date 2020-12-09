@@ -1,13 +1,14 @@
 {
   "name": "popcat",
   "version": "0.0.1",
-  "description": "A popping cat",
-  "productName": "PopCat",
+  "description": "Popcat catpop",
+  "productName": "Popcat",
   "author": "Sam Smith",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

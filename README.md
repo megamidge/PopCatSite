@@ -1,6 +1,6 @@
-# PopCat (popcat)
+# Popcat (popcat)
 
-A popping cat
+Popcat catpop
 
 ## Install the dependencies
 ```bash
